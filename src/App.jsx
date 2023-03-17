@@ -36,7 +36,7 @@ const app = () => {
             </div>
           </div>
           <div>
-            <div>tecnologias:</div>
+            <div>tecnologias: novas</div>
           </div>
         </section>
       </main>
