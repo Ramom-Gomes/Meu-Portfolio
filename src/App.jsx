@@ -2,6 +2,11 @@ import "./App.css";
 import FotoGit from "./images/github.png";
 import FotoLin from "./images/linkedin.png";
 import FotoPessoal from "./images/Foto.jpeg";
+import FotoReact from "./images/imagemreact.png";
+import FotoJs from "./images/imagemjs.png";
+import Fotohtml from "./images/imagemhtml.png";
+import Fotocss from "./images/imagemcss.png";
+import Fotosql from "./images/imagemsql.png"
 
 const app = () => {
   
@@ -24,7 +29,7 @@ const app = () => {
         <section className="apresentacao">
           <div className="informacoes">
             <div className="informacoespessoais">
-              <h1 className="informacoestitulo">Desenvolvedor Front-End React</h1>
+              <h1 className="informacoestitulo">Desenvolvedor Front-End React 👋</h1>
               <p className="informacoesdescricao">Olá. Eu sou o Ramom. Um apaixado Desenvolvedor Front-End React.</p>
               <div className="portfolio">
               <a href=""><img className="redesimage" src={FotoLin} alt="" /></a>
@@ -35,8 +40,13 @@ const app = () => {
               <img className="imagem" src={FotoPessoal} alt="" />
             </div>
           </div>
-          <div>
-            <div>tecnologias: novas</div>
+          <div className="tecnologias">
+            <div className="titulotecnologias">tecnologias |</div>
+            <img className="imagemtecnologias" src={Fotohtml} alt="" />
+            <img className="imagemtecnologias" src={Fotocss} alt="" />
+            <img className="imagemtecnologias" src={FotoJs} alt="" />
+            <img className="imagemtecnologias" src={FotoReact} alt="" />
+            <img className="imagemtecnologias" src={Fotosql} alt="" />
           </div>
         </section>
       </main>
