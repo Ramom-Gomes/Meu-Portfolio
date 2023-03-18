@@ -51,12 +51,14 @@
 .informacoestitulo {
     font-size: 30px;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 .informacoesdescricao {
     font-size: 18px;
     margin-top: 20px;
     line-height: 23px;
+    color: #808080;
 }
 
 .redesimage {
