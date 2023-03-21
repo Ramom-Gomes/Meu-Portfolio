@@ -6,7 +6,8 @@ import FotoReact from "./images/imagemreact.png";
 import FotoJs from "./images/imagemjs.png";
 import Fotohtml from "./images/imagemhtml.png";
 import Fotocss from "./images/imagemcss.png";
-import Fotosql from "./images/imagemsql.png"
+import Fotosql from "./images/imagemsql.png";
+import FotoIlustra from "./images/imagemilustra.jpg";
 
 const app = () => {
   
@@ -47,6 +48,18 @@ const app = () => {
             <img className="imagemtecnologias" src={FotoJs} alt="" />
             <img className="imagemtecnologias" src={FotoReact} alt="" />
             <img className="imagemtecnologias" src={Fotosql} alt="" />
+          </div>
+        </section>
+        <section>
+          <img src={FotoIlustra} alt="" />
+          <div>
+            <p>Sobre mim</p>
+            <h3>Um dedicado Desenvolvedor Front-End</h3>
+            <p>Um jovem de 19 anos apaixonado por tecnologia e programação, 
+              atualmente cursando o ensino superior em Análise e Desenvolvimento de Sistemas.
+              Com foco na área de programação Front-End
+              possuo um impressionante arsenal de habilidades em html,css,javascript,react e sql.Sou excelent
+              em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila.</p>
           </div>
         </section>
       </main>
