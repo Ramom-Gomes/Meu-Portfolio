@@ -54,7 +54,7 @@ const app = () => {
           <img className="imagemilustra" src={FotoIlustra} alt="" />
           <div className="sobreprincipal">
             <p className="sobretitulo">SOBRE MIM</p>
-            <h3 className="sobresemititulo">Um dedicado Desenvolvedor Front-End.</h3>
+            <h3 className="sobresemititulo">Um dedicado Desenvolvedor Front-End 🧞.</h3>
             <p className="sobredescricao">Um jovem de 19 anos apaixonado por tecnologia e programação, 
               atualmente cursando o ensino superior em Análise e Desenvolvimento de Sistemas.
               Com foco na área de programação Front-End
