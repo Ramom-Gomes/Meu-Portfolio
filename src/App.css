@@ -131,13 +131,13 @@
     margin-right: 40px;
 }
 
-.sobretitulo {
+.sobretitulo, .portfoliotitulo {
     font-size: 15px;
     margin-bottom: 10px;
     color: blue;
 }
 
-.sobresemititulo {
+.sobresemititulo, .portfoliodescricao {
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -146,4 +146,14 @@
     font-size: 17px;
     color: #808080;
     line-height: 20px;
+}
+
+.secaoport {
+    max-width: 700px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.projetos {
+    display: flex;
 }

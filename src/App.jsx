@@ -62,6 +62,17 @@ const app = () => {
               em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila.</p>
           </div>
         </section>
+        <section className="secaoport">
+          <p className="portfoliotitulo">PORTFÓLIO</p>
+          <h3 className="portfoliodescricao">Cada projeto é uma peça única de desenvolvimento 🧩</h3>
+          <div className="projetos">
+            <img className="projetoimagem" src={FotoIlustra} alt="" />
+            <div>
+              <p>teste</p>
+              
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   )
