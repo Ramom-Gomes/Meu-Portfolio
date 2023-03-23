@@ -75,6 +75,40 @@ const app = () => {
                 <p className="tecnologiausada">tecnologia</p>
               </div>
               <div className="projetoredes">
+                <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="secaoport">
+          <div className="projetos">
+            <div className="projetodescricao2">
+              <p className="projetotitulo">teste</p>
+              <p className="projetosemititulo">esse é uma legenda para testar a posição</p>
+              <div className="projetotecnologias">
+                <p className="tecnologiausada">tecnologia</p>
+                <p className="tecnologiausada">tecnologia</p>
+              </div>
+              <div className="projetoredes">
+                <a className="projetogit" href="">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+              </div>
+            </div>
+            <img className="projetoimagem" src={FotoIlustra} alt="" />
+          </div>
+        </section>
+        <section className="secaoport">
+          <div className="projetos">
+            <img className="projetoimagem" src={FotoIlustra} alt="" />
+            <div className="projetodescricao">
+              <p className="projetotitulo">teste</p>
+              <p className="projetosemititulo">esse é uma legenda para testar a posição</p>
+              <div className="projetotecnologias">
+                <p className="tecnologiausada">tecnologia</p>
+                <p className="tecnologiausada">tecnologia</p>
+              </div>
+              <div className="projetoredes">
                 <a className="projetogit" href="">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
                 <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
               </div>
