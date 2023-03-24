@@ -115,6 +115,9 @@ const app = () => {
             </div>
           </div>
         </section>
+        <section>
+          <p>contatos</p>
+        </section>
       </main>
     </div>
   )
