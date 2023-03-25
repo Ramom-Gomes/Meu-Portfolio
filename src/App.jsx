@@ -117,6 +117,7 @@ const app = () => {
         </section>
         <section>
           <p>contatos</p>
+          <p>telefone</p>
         </section>
       </main>
     </div>
