@@ -118,6 +118,7 @@ const app = () => {
         <section>
           <p>contatos</p>
           <p>telefone</p>
+          <p>e-mail</p>
         </section>
       </main>
     </div>
