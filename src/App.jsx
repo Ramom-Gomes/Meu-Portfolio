@@ -140,8 +140,8 @@ const app = () => {
         <div className="faixa">
           <div className="faixalocal">
             <p className="mensagemfinal">Projeto desenvolvido com muito carinho</p>
-            <a href=""><img className="redesimagemfinal" src={FotoGit} alt="" /></a>
-            <a href=""><img className="redesimagemfinal" src={FotoLin} alt="" /></a>
+            <a target={"_blank"} href="https://github.com/Ramom-Gomes"><img className="redesimagemfinal" src={FotoGit} alt="" /></a>
+            <a target={"_blank"} href="https://www.linkedin.com/in/ramomgomes/"><img className="redesimagemfinal" src={FotoLin} alt="" /></a>
           </div>
         </div>
       </main>
