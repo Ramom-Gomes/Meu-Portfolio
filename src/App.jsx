@@ -17,14 +17,14 @@ const app = () => {
     <div>
       <div className="cabecalho">
         <header>
-          <h1 className="titulo">Ramom.dev</h1>
+          <h1 id="home" className="titulo">Ramom.dev</h1>
         </header>
         <nav className="menuprincipal">
           <ul className="menu">
-            <li className="links"><a className="links" href="">Home</a></li>
-            <li className="links"><a className="links" href="">Sobre</a></li>
-            <li className="links"><a className="links" href="">Projetos</a></li>
-            <li className="links"><a className="links" href="">Contatos</a></li>
+            <li className="links"><a className="links" href="#home">Home</a></li>
+            <li className="links"><a className="links" href="#sobremim">Sobre</a></li>
+            <li className="links"><a className="links" href="#portfolio">Projetos</a></li>
+            <li className="links"><a className="links" href="#contatos">Contatos</a></li>
           </ul>
         </nav>
       </div>
@@ -44,7 +44,7 @@ const app = () => {
             </div>
           </div>
           <div className="tecnologias">
-            <div className="titulotecnologias">tecnologias |</div>
+            <div id="sobremim" className="titulotecnologias">tecnologias |</div>
             <img className="imagemtecnologias" src={Fotohtml} alt="" />
             <img className="imagemtecnologias" src={Fotocss} alt="" />
             <img className="imagemtecnologias" src={FotoJs} alt="" />
@@ -65,7 +65,7 @@ const app = () => {
           </div>
         </section>
         <section className="secaoport">
-          <p className="portfoliotitulo">PORTFÓLIO</p>
+          <p id="portfolio" className="portfoliotitulo">PORTFÓLIO</p>
           <h3 className="portfoliodescricao">Cada projeto é uma peça única de desenvolvimento 🧩</h3>
           <div className="projetos">
             <img className="projetoimagem" src={FotoIlustra} alt="" />
@@ -118,7 +118,7 @@ const app = () => {
           </div>
         </section>
         <section className="secaocontatos">
-          <p className="contatotitulo">CONTATOS</p>
+          <p id="contatos" className="contatotitulo">CONTATOS</p>
           <h3 className="contatosemititulo">não seja tímido! fale comigo 👇🏿</h3>
           <div className="contatosredes">
             <div className="contatospessoais">
@@ -137,7 +137,7 @@ const app = () => {
             </div>
           </div>
         </section>
-        <div className="faixa">
+        <div  className="faixa">
           <div className="faixalocal">
             <p className="mensagemfinal">Projeto desenvolvido com muito carinho</p>
             <a target={"_blank"} href="https://github.com/Ramom-Gomes"><img className="redesimagemfinal" src={FotoGit} alt="" /></a>
