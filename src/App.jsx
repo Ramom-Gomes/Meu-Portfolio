@@ -8,6 +8,8 @@ import Fotohtml from "./images/imagemhtml.png";
 import Fotocss from "./images/imagemcss.png";
 import Fotosql from "./images/imagemsql.png";
 import FotoIlustra from "./images/imagemilustra.jpg";
+import FotoTelefone from "./images/telefoneazul.png";
+import FotoEmail from "./images/emailazul.png";
 
 const app = () => {
   
@@ -98,7 +100,7 @@ const app = () => {
             <img className="projetoimagem" src={FotoIlustra} alt="" />
           </div>
         </section>
-        <section className="secaoport">
+        <section className="secaoport2">
           <div className="projetos">
             <img className="projetoimagem" src={FotoIlustra} alt="" />
             <div className="projetodescricao">
@@ -115,11 +117,33 @@ const app = () => {
             </div>
           </div>
         </section>
-        <section>
-          <p>contatos</p>
-          <p>telefone</p>
-          <p>e-mail</p>
+        <section className="secaocontatos">
+          <p className="contatotitulo">CONTATOS</p>
+          <h3 className="contatosemititulo">não seja tímido! fale comigo 👇🏿</h3>
+          <div className="contatosredes">
+            <div className="contatospessoais">
+              <img className="contatosfototelefone" src={FotoTelefone} alt="" />
+              <div className="contatostelefone">
+                <p className="contatosredestitulo">Telefone</p>
+                <p>(11) 94262-7660</p>
+              </div>
+            </div>
+            <div className="contatospessoais2">
+              <img className="contatosfotoemail" src={FotoEmail} alt="" />
+              <div className="contatosemail">
+                <p className="contatosredestitulo">E-Mail</p>
+                <p>ramomusica09@hotmail.com</p>
+              </div>
+            </div>
+          </div>
         </section>
+        <div className="faixa">
+          <div className="faixalocal">
+            <p className="mensagemfinal">Projeto desenvolvido com muito carinho</p>
+            <a href=""><img className="redesimagemfinal" src={FotoGit} alt="" /></a>
+            <a href=""><img className="redesimagemfinal" src={FotoLin} alt="" /></a>
+          </div>
+        </div>
       </main>
     </div>
   )

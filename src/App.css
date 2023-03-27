@@ -131,18 +131,18 @@
     margin-right: 40px;
 }
 
-.sobretitulo, .portfoliotitulo {
+.sobretitulo, .portfoliotitulo, .contatotitulo {
     font-size: 15px;
     margin-bottom: 10px;
     color: blue;
 }
 
-.sobresemititulo, .portfoliodescricao {
+.sobresemititulo, .portfoliodescricao, .contatosemititulo {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-.portfoliodescricao {
+.portfoliodescricao, .contatosemititulo {
     margin-bottom: 50px;
 }
 
@@ -156,6 +156,12 @@
     max-width: 700px;
     margin: auto;
     margin-bottom: 100px;
+}
+
+.secaoport2 {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 200px;
 }
 
 .projetos {
@@ -226,6 +232,63 @@
     border-radius: 50%;
 }
 
-.projetoredesposicao {
+.secaocontatos {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.contatosredes {
     display: flex;
+}
+
+.contatospessoais {
+    display: flex;
+    margin-right: 120px;
+}
+
+.contatospessoais2 {
+    display: flex;
+}
+
+.contatosemail, .contatostelefone {
+    display: flex;
+    flex-direction: column;
+}
+
+.contatosfototelefone, .contatosfotoemail {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.contatosredestitulo {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.faixa {
+    background-color: black;
+    height: 80px;
+}
+
+.faixalocal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mensagemfinal {
+    color: white;
+    margin-right: 90px;
+    margin-top: 20px;
+} 
+
+.redesimagemfinal {
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 20px;
 }
