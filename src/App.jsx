@@ -10,6 +10,7 @@ import Fotosql from "./images/imagemsql.png";
 import FotoIlustra from "./images/imagemilustra.jpg";
 import FotoTelefone from "./images/telefoneazul.png";
 import FotoEmail from "./images/emailazul.png";
+import FotoEcomerce from "./images/Ecomerce.jpeg";
 
 const app = () => {
   
@@ -68,17 +69,18 @@ const app = () => {
           <p id="portfolio" className="portfoliotitulo">PORTFÓLIO</p>
           <h3 className="portfoliodescricao">Cada projeto é uma peça única de desenvolvimento 🧩</h3>
           <div className="projetos">
-            <img className="projetoimagem" src={FotoIlustra} alt="" />
+            <img className="projetoimagem" src={FotoEcomerce} alt="" />
             <div className="projetodescricao">
-              <p className="projetotitulo">teste</p>
-              <p className="projetosemititulo">esse é uma legenda para testar a posição</p>
+              <p className="projetotitulo">E-Comerce pizzas 🍕</p>
+              <p className="projetosemititulo">Vai uma pizza ai? Esse site para compras de pizzas permite
+               comprar pizzas de diversos sabores e tamanhos, basta adicionar no carrinho as suas escolhas. fácil e simples.</p>
               <div className="projetotecnologias">
-                <p className="tecnologiausada">tecnologia</p>
-                <p className="tecnologiausada">tecnologia</p>
+                <p className="tecnologiausada">Javascript</p>
+                <p className="tecnologiausada">CSS</p>
               </div>
               <div className="projetoredes">
-                <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
-                <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" target={"_blank"} href="https://tangerine-flan-82ef74.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" target={"_blank"} href="https://github.com/Ramom-Gomes/E-Comerce-de-pizzas">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
               </div>
             </div>
           </div>

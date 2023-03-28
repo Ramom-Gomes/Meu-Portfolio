@@ -169,7 +169,8 @@
 }
 
 .projetoimagem {
-    width: 350px;
+    width: 400px;
+    height: 250px;
 }
 
 .projetodescricao {
@@ -197,6 +198,7 @@
     font-size: 15px;
     margin: auto;
     margin-bottom: 15px;
+    line-height: 20px;
 }
 
 .projetotecnologias {
