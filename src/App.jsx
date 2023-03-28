@@ -11,6 +11,7 @@ import FotoIlustra from "./images/imagemilustra.jpg";
 import FotoTelefone from "./images/telefoneazul.png";
 import FotoEmail from "./images/emailazul.png";
 import FotoEcomerce from "./images/Ecomerce.jpeg";
+import Fotoimc from "./images/imc.jpeg";
 
 const app = () => {
   
@@ -88,18 +89,21 @@ const app = () => {
         <section className="secaoport">
           <div className="projetos">
             <div className="projetodescricao2">
-              <p className="projetotitulo">teste</p>
-              <p className="projetosemititulo">esse é uma legenda para testar a posição</p>
+              <p className="projetotitulo">Calculadora IMC 🏋🏽</p>
+              <p className="projetosemititulo">Quer calcular se você está no seu peso ideal? esse site permite
+              você calcular a sua massa corporal com base na sua altura e peso.
+              Após isso ele te mostra em que estado você está. Muito importante para manter
+              a saúde em dia.</p>
               <div className="projetotecnologias">
-                <p className="tecnologiausada">tecnologia</p>
-                <p className="tecnologiausada">tecnologia</p>
+                <p className="tecnologiausada">Javascript</p>
+                <p className="tecnologiausada">React</p>
               </div>
               <div className="projetoredes">
-                <a className="projetogit" href="">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
-                <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" target={"_blank"} href="https://github.com/Ramom-Gomes/Calculadora-de-IMC.">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" target={"_blank"} href="https://deft-druid-7008d8.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
               </div>
             </div>
-            <img className="projetoimagem" src={FotoIlustra} alt="" />
+            <img className="projetoimagem2" src={Fotoimc} alt="" />
           </div>
         </section>
         <section className="secaoport2">

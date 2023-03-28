@@ -173,6 +173,11 @@
     height: 250px;
 }
 
+.projetoimagem2 {
+    width: 430px;
+    height: 350px;
+}
+
 .projetodescricao {
     display: flex;
     flex-direction: column;
