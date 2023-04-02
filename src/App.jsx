@@ -112,7 +112,7 @@ const app = () => {
           <div className="projetos">
             <img className="projetoimagem" src={FotoRickandMorty} alt="" />
             <div className="projetodescricao">
-              <p className="projetotitulo">Rick and Morty</p>
+              <p className="projetotitulo">Rick and Morty 🥒</p>
               <p className="projetosemititulo">Quem nunca ouviu falar desse desenho não é mesmo?
                 Esse site mostra os personagens do desenho, e você consegue trocar de página
                 para ver todos os personagens. Cada persogem mostra o seu nome, se está vivo
