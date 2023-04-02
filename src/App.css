@@ -413,6 +413,19 @@
 }
 
 @media (max-width:535px) {
+    
+    .cabecalho {
+        max-width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .links {
+        margin-right: 10px;
+    }
+
     .informacoes {
         flex-direction: column;
     }
