@@ -305,3 +305,128 @@
     margin-top: 20px;
     margin-right: 20px;
 }
+
+@media (max-width:1115px) {
+    .cabecalho {
+        flex-direction: column;
+        max-width: 800px;
+        margin-top: 10px;
+        background-color: aqua;
+    }
+
+    header {
+        margin: auto;
+    }
+
+    .menuprincipal {
+        margin-left: 0px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:675px) {
+    .sobremim {
+        flex-direction: column;
+    }
+
+    .imagemilustra {
+        display: none;
+    }
+
+    .sobreprincipal {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .sobretitulo {
+        margin-top: 40px;
+    }
+
+    .secaoport {
+        max-width: 600px;
+        background-color: aqua;
+    }
+
+    .secaoport2 {
+        max-width: 600px;
+    }
+
+    .projetos {
+        flex-direction: column;
+    }
+
+    .projetotitulo {
+        margin-top: 20px;
+    }
+
+    .projetoredes {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .projetogit {
+        margin: auto;
+        margin-right: 30px;
+    }
+
+    .projetodescricao {
+        margin-left: 30px;
+    }
+
+    .projetodescricao2 {
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:605px) {
+    .tecnologias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .titulotecnologias {
+        margin-right: 0px;
+        font-size: 25px;
+    }
+
+    .imagemtecnologias {
+        margin-right: 0px;
+    }    
+
+    .contatospessoais {
+        flex-direction: column;
+        margin-right: 60px;
+        margin-left: 30px;
+    }
+
+    .contatospessoais2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contatosredestitulo {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:535px) {
+    .informacoes {
+        flex-direction: column;
+    }
+
+    .foto {
+        margin: auto;
+    }
+
+    .imagem {
+        margin-left: 0px;
+    }
+
+    .portfolio {
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}

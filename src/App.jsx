@@ -38,8 +38,8 @@ const app = () => {
               <h1 className="informacoestitulo">Desenvolvedor Front-End React 👋🏿</h1>
               <p className="informacoesdescricao">Olá. Eu sou o Ramom. Um apaixado Desenvolvedor Front-End React.</p>
               <div className="portfolio">
-              <a target={"_blank"} href="https://www.linkedin.com/in/ramomgomes/"><img className="redesimage" src={FotoLin} alt="" /></a>
-              <a target={"_blank"} href="https://github.com/Ramom-Gomes"><img className="redesimage" src={FotoGit} alt="" /></a>
+                <a target={"_blank"} href="https://www.linkedin.com/in/ramomgomes/"><img className="redesimage" src={FotoLin} alt="" /></a>
+                <a target={"_blank"} href="https://github.com/Ramom-Gomes"><img className="redesimage" src={FotoGit} alt="" /></a>
               </div>
             </div>
             <div className="foto">
