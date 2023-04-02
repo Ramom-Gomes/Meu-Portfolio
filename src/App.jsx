@@ -73,7 +73,7 @@ const app = () => {
           <div className="projetos">
             <img className="projetoimagem" src={FotoEcomerce} alt="" />
             <div className="projetodescricao">
-              <p className="projetotitulo">E-Comerce pizzas 🍕</p>
+              <p className="projetotitulo">E-Commerce pizzas 🍕</p>
               <p className="projetosemititulo">Vai uma pizza ai? Esse site para compras de pizzas permite
                comprar pizzas de diversos sabores e tamanhos, basta adicionar no carrinho as suas escolhas.
               Ótimo para matar a fome.</p>
