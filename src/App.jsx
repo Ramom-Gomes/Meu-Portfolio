@@ -60,10 +60,10 @@ const app = () => {
           <div className="sobreprincipal">
             <p className="sobretitulo">SOBRE MIM</p>
             <h3 className="sobresemititulo">Um dedicado Desenvolvedor Front-End 🧞.</h3>
-            <p className="sobredescricao">Um jovem de 19 anos apaixonado por tecnologia e programação, 
+            <p className="sobredescricao">Um jovem apaixonado por tecnologia e programação, 
               atualmente cursando o ensino superior em Análise e Desenvolvimento de Sistemas.
               Com foco na área de programação Front-End
-              possuo um impressionante arsenal de habilidades em html, css, javascript, react e sql.Sou excelent
+              possuo um impressionante arsenal de habilidades em html, css, javascript, react e sql. Sou excelent
               em projetar e manter sites responsivos que oferecem uma experiência de usuário tranquila.</p>
           </div>
         </section>

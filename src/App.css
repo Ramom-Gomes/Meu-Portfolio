@@ -7,7 +7,7 @@
 
 .cabecalho {
     display: flex;
-    max-width: 1300px;
+    max-width: 1100px;
     margin: auto;
     margin-top: 10px;
 }
@@ -18,7 +18,9 @@
 }
 
 .menuprincipal {
-    margin-left: 800px;
+    margin-left: 620px;
+    color: black;
+    font-weight: bold;
 }
 .menu {
     display: flex;
