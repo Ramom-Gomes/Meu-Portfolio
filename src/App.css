@@ -171,11 +171,13 @@
 .projetoimagem {
     width: 400px;
     height: 250px;
+    border-radius: 10px;
 }
 
 .projetoimagem2 {
     width: 430px;
     height: 350px;
+    border-radius: 10px;
 }
 
 .projetodescricao {

@@ -12,6 +12,7 @@ import FotoTelefone from "./images/telefoneazul.png";
 import FotoEmail from "./images/emailazul.png";
 import FotoEcomerce from "./images/Ecomerce.jpeg";
 import Fotoimc from "./images/imc.jpeg";
+import FotoRickandMorty from "./images/rickandmorty.jpeg";
 
 const app = () => {
   
@@ -74,14 +75,15 @@ const app = () => {
             <div className="projetodescricao">
               <p className="projetotitulo">E-Comerce pizzas 🍕</p>
               <p className="projetosemititulo">Vai uma pizza ai? Esse site para compras de pizzas permite
-               comprar pizzas de diversos sabores e tamanhos, basta adicionar no carrinho as suas escolhas. fácil e simples.</p>
+               comprar pizzas de diversos sabores e tamanhos, basta adicionar no carrinho as suas escolhas.
+              Ótimo para matar a fome.</p>
               <div className="projetotecnologias">
                 <p className="tecnologiausada">Javascript</p>
                 <p className="tecnologiausada">CSS</p>
               </div>
               <div className="projetoredes">
-                <a className="projetogit" target={"_blank"} href="https://tangerine-flan-82ef74.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
                 <a className="projetogit" target={"_blank"} href="https://github.com/Ramom-Gomes/E-Comerce-de-pizzas">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" target={"_blank"} href="https://tangerine-flan-82ef74.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
               </div>
             </div>
           </div>
@@ -90,12 +92,12 @@ const app = () => {
           <div className="projetos">
             <div className="projetodescricao2">
               <p className="projetotitulo">Calculadora IMC 🏋🏽</p>
-              <p className="projetosemititulo">Quer calcular se você está no seu peso ideal? esse site permite
+              <p className="projetosemititulo">Quer calcular se você está no seu peso ideal? Esse site permite
               você calcular a sua massa corporal com base na sua altura e peso.
               Após isso ele te mostra em que estado você está. Muito importante para manter
               a saúde em dia.</p>
               <div className="projetotecnologias">
-                <p className="tecnologiausada">Javascript</p>
+                <p className="tecnologiausada">Typescript</p>
                 <p className="tecnologiausada">React</p>
               </div>
               <div className="projetoredes">
@@ -108,17 +110,21 @@ const app = () => {
         </section>
         <section className="secaoport2">
           <div className="projetos">
-            <img className="projetoimagem" src={FotoIlustra} alt="" />
+            <img className="projetoimagem" src={FotoRickandMorty} alt="" />
             <div className="projetodescricao">
-              <p className="projetotitulo">teste</p>
-              <p className="projetosemititulo">esse é uma legenda para testar a posição</p>
+              <p className="projetotitulo">Rick and Morty</p>
+              <p className="projetosemititulo">Quem nunca ouviu falar desse desenho não é mesmo?
+                Esse site mostra os personagens do desenho, e você consegue trocar de página
+                para ver todos os personagens. Cada persogem mostra o seu nome, se está vivo
+                ou morto, a sua espécie, a primeira e última aparição no desenho.
+              </p>
               <div className="projetotecnologias">
-                <p className="tecnologiausada">tecnologia</p>
-                <p className="tecnologiausada">tecnologia</p>
+                <p className="tecnologiausada">Javascript</p>
+                <p className="tecnologiausada">React</p>
               </div>
               <div className="projetoredes">
-                <a className="projetogit" href="">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
-                <a className="projetogit" href="">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" target={"_blank"} href="https://github.com/Ramom-Gomes/Rick-Morty">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className="projetogit" target={"_blank"} href="https://cute-arithmetic-afc5d4.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
               </div>
             </div>
           </div>
