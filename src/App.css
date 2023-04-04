@@ -409,12 +409,16 @@
 
     .contatosredestitulo {
         margin-top: 20px;
-        
     }
 
     .projetoimagem {
         width: 300px;
         height: 200px;
+    }
+
+    .projetoimagem2 {
+        width: 350px;
+        height: 250px;
     }
 
     .portfoliotitulo, .portfoliodescricao {
