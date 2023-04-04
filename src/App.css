@@ -285,6 +285,7 @@
 .faixa {
     background-color: black;
     height: 80px;
+    width: 100%;
 }
 
 .faixalocal {
