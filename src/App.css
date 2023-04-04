@@ -441,6 +441,9 @@
         justify-content: center;
     }
 
+    .informacoestitulo, .informacoesdescricao {
+       margin-left: 20px; 
+    }
 
     .links {
         margin-right: 10px;
