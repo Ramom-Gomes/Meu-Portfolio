@@ -411,6 +411,16 @@
     .contatosredestitulo {
         margin-top: 20px;
     }
+
+    .projetoimagem {
+        width: 300px;
+        height: 200px;
+    }
+
+    .projetoimagem2 {
+        width: 300px;
+        height: 200px;
+    }
 }
 
 @media (max-width:535px) {
