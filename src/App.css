@@ -312,7 +312,6 @@
         flex-direction: column;
         max-width: 800px;
         margin-top: 10px;
-        background-color: aqua;
     }
 
     header {
@@ -346,7 +345,6 @@
 
     .secaoport {
         max-width: 600px;
-        background-color: aqua;
     }
 
     .secaoport2 {
