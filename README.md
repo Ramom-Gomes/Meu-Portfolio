@@ -9,8 +9,8 @@ O principal objetivo com este projeto foi montar um lugar onde as pessoas irão 
 Link para visualização total do projeto: [VISUALIZAÇÃO](https://monumental-alfajores-8ca782.netlify.app/).
 
 <div align="center" display="flex">
-<img src="https://user-images.githubusercontent.com/110055468/235910387-9edc96af-a24a-46a7-be10-86fa0f2aa8b5.jpeg" width="500px" />
-<img src="https://user-images.githubusercontent.com/110055468/235910568-20a05a10-f7c0-4573-a491-38068de4a95a.jpeg" width="500px" />
+<img src="https://user-images.githubusercontent.com/110055468/235910387-9edc96af-a24a-46a7-be10-86fa0f2aa8b5.jpeg" width="400px" />
+<img src="https://user-images.githubusercontent.com/110055468/235910568-20a05a10-f7c0-4573-a491-38068de4a95a.jpeg" width="400px" />
 </div>
 
 
@@ -31,7 +31,7 @@ Primeiro, você deve clonar o projeto na sua máquina, para isso você pode cola
 
 ```bash
   git clone https://github.com/Ramom-Gomes/Meu-Portfolio.git
-  cd rick-morty
+  cd Meu-Portfolio
 ```
 Para instalar as dependências, execute o seguinte comando:
 
