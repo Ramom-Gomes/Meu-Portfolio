@@ -30,7 +30,7 @@ Link para visualização total do projeto: [VISUALIZAÇÃO](https://monumental-a
 Primeiro, você deve clonar o projeto na sua máquina, para isso você pode colar o seguinte comando em seu terminal:
 
 ```bash
-  git clone https://github.com/Ramom-Gomes/Meu-Portfolio
+  git clone https://github.com/Ramom-Gomes/Meu-Portfolio.git
   cd rick-morty
 ```
 Para instalar as dependências, execute o seguinte comando:
