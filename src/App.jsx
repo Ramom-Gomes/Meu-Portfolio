@@ -144,7 +144,7 @@ const app = () => {
               <img className="contatosfotoemail" src={FotoEmail} alt="" />
               <div className="contatosemail">
                 <p className="contatosredestitulo">E-Mail</p>
-                <p>ramomusica09@hotmail.com</p>
+                <p>rgs.ramomgomes@hotmail.com</p>
               </div>
             </div>
           </div>
