@@ -13,14 +13,22 @@ import FotoEmail from "./images/emailazul.png";
 import FotoEcomerce from "./images/Ecomerce.jpeg";
 import Fotoimc from "./images/imc.jpeg";
 import FotoRickandMorty from "./images/rickandmorty.jpeg";
+import { useState } from "react";
 
 const app = () => {
   
+  const [modo, setModo] = useState('light');
+
+  const alternarModo = () => {
+    setModo(modo === 'light' ? 'dark' : 'light');
+  };
+
   return (
-    <div>
+    <div className={`main ${modo}`}>
       <div className="cabecalho">
         <header>
-          <h1 id="home" className="titulo">Ramom.dev</h1>
+          <h1 id="home" className={`titulo ${modo}`}>Ramom.dev</h1>
+          <button onClick={alternarModo}>Alternar Modo</button>
         </header>
         <nav className="menuprincipal">
           <ul className="menu">
