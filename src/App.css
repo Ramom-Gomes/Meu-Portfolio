@@ -14,7 +14,7 @@ html {
 }
 
 .main.dark {
-    background-color: #333;
+    background-color: #222222;
   }
 
 .cabecalho {
@@ -50,6 +50,10 @@ html {
     font-size: 20px;
 }
 
+.links.dark {
+    color: white;
+}
+
 .apresentacao {
     max-width: 700px;
     margin: auto;
@@ -73,11 +77,19 @@ html {
     margin-top: 20px;
 }
 
+.informacoestitulo.dark {
+    color: white;
+}
+
 .informacoesdescricao {
     font-size: 18px;
     margin-top: 20px;
     line-height: 23px;
     color: #808080;
+}
+
+.informacoesdescricao.dark {
+    color: #CCCCCC;
 }
 
 .redesimage {
@@ -160,6 +172,12 @@ html {
     margin-bottom: 10px;
 }
 
+.sobresemititulo.dark, .portfoliodescricao.dark, .projetotitulo.dark,
+.tecnologiausada.dark, .projetogit.dark, .titulotecnologias.dark,
+.contatosemititulo.dark, .contatosredestitulo.dark, .contatosredesinfo.dark {
+    color: white;
+}
+
 .portfoliodescricao, .contatosemititulo {
     margin-bottom: 50px;
 }
@@ -168,6 +186,10 @@ html {
     font-size: 17px;
     color: #808080;
     line-height: 20px;
+}
+
+.sobredescricao.dark, .projetosemititulo.dark {
+    color: #CCCCCC;
 }
 
 .secaoport {
