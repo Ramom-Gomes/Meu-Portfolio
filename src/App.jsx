@@ -13,6 +13,11 @@ import FotoEmail from "./images/emailazul.png";
 import FotoEcomerce from "./images/Ecomerce.jpeg";
 import Fotoimc from "./images/imc.jpeg";
 import FotoRickandMorty from "./images/rickandmorty.jpeg";
+import { AiFillHtml5, AiOutlineConsoleSql, AiFillLinkedin, AiFillGithub, AiFillEye } from 'react-icons/ai';
+import { IoLogoCss3 } from 'react-icons/io';
+import { BiLogoJavascript, BiLogoReact, BiLogoTypescript, BiLogoGmail } from 'react-icons/bi';
+import { BsTelephoneFill } from 'react-icons/bs';
+import { GrDeploy } from 'react-icons/gr';
 import { useState } from "react";
 
 const app = () => {
@@ -46,8 +51,8 @@ const app = () => {
               <h1 className={`informacoestitulo ${modo}`}>Desenvolvedor Front-End React 👋🏿</h1>
               <p className={`informacoesdescricao ${modo}`}>Olá. Eu sou o Ramom. Um apaixonado Desenvolvedor Front-End React.</p>
               <div className="portfolio">
-                <a target={"_blank"} href="https://www.linkedin.com/in/ramomgomes/"><img className="redesimage" src={FotoLin} alt="" /></a>
-                <a target={"_blank"} href="https://github.com/Ramom-Gomes"><img className="redesimage" src={FotoGit} alt="" /></a>
+                <a target={"_blank"} href="https://www.linkedin.com/in/ramomgomes/">{<AiFillLinkedin size={40} color="#4169E1"/>}</a>
+                <a target={"_blank"} href="https://github.com/Ramom-Gomes">{<AiFillGithub size={40} color="#4169E1"/>}</a>
               </div>
             </div>
             <div className="foto">
@@ -56,11 +61,12 @@ const app = () => {
           </div>
           <div className="tecnologias">
             <div id="sobremim" className={`titulotecnologias ${modo}`}>tecnologias |</div>
-            <img className="imagemtecnologias" src={Fotohtml} alt="" />
-            <img className="imagemtecnologias" src={Fotocss} alt="" />
-            <img className="imagemtecnologias" src={FotoJs} alt="" />
-            <img className="imagemtecnologias" src={FotoReact} alt="" />
-            <img className="imagemtecnologias" src={Fotosql} alt="" />
+            <div className="imagemtecnologias">{<AiFillHtml5 size={40} color="#4169E1"/>}</div>
+            <div className="imagemtecnologias">{<IoLogoCss3 size={40} color="#4169E1"/>}</div>
+            <div className="imagemtecnologias">{<BiLogoJavascript size={40} color="#4169E1"/>}</div>
+            <div className="imagemtecnologias">{<BiLogoReact size={40} color="#4169E1"/>}</div>
+            <div className="imagemtecnologias">{<BiLogoTypescript size={40} color="#4169E1"/>}</div>
+            <div className="imagemtecnologias">{<AiOutlineConsoleSql size={40} color="#4169E1"/>}</div>
           </div>
         </section>
         <section className="sobremim">
@@ -90,8 +96,8 @@ const app = () => {
                 <p className={`tecnologiausada ${modo}`}>CSS</p>
               </div>
               <div className="projetoredes">
-                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/E-Comerce-de-pizzas">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
-                <a className={`projetogit ${modo}`} target={"_blank"} href="https://tangerine-flan-82ef74.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/E-Comerce-de-pizzas">Código{<AiFillGithub size={35} color="#4169E1"/>}</a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://tangerine-flan-82ef74.netlify.app/">Demo{<AiFillEye size={35} color="#4169E1"/>}</a>
               </div>
             </div>
           </div>
@@ -109,8 +115,8 @@ const app = () => {
                 <p className={`tecnologiausada ${modo}`}>React</p>
               </div>
               <div className="projetoredes">
-                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/Calculadora-de-IMC.">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
-                <a className={`projetogit ${modo}`} target={"_blank"} href="https://deft-druid-7008d8.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/Calculadora-de-IMC.">Código{<AiFillGithub size={35} color="#4169E1"/>}</a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://deft-druid-7008d8.netlify.app/">Demo{<AiFillEye size={35} color="#4169E1"/>}</a>
               </div>
             </div>
             <img className="projetoimagem2" src={Fotoimc} alt="" />
@@ -131,8 +137,8 @@ const app = () => {
                 <p className={`tecnologiausada ${modo}`}>React</p>
               </div>
               <div className="projetoredes">
-                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/Rick-Morty">Código<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
-                <a className={`projetogit ${modo}`} target={"_blank"} href="https://cute-arithmetic-afc5d4.netlify.app/">Demo<img className="projetoredesimagem" src={FotoGit} alt="" /></a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/Rick-Morty">Código{<AiFillGithub size={35} color="#4169E1"/>}</a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://cute-arithmetic-afc5d4.netlify.app/">Demo{<AiFillEye size={35} color="#4169E1"/>}</a>
               </div>
             </div>
           </div>
@@ -142,14 +148,14 @@ const app = () => {
           <h3 className={`contatosemititulo ${modo}`}>não seja tímido! fale comigo 👇🏿</h3>
           <div className="contatosredes">
             <div className="contatospessoais">
-              <img className="contatosfototelefone" src={FotoTelefone} alt="" />
+            <div>{<BsTelephoneFill className="contatosfotoemail" size={25} color="#4169E1"/>}</div>
               <div className="contatostelefone">
                 <p className={`contatosredestitulo ${modo}`}>Telefone</p>
                 <p className={`contatosredesinfo ${modo}`}>(11) 94262-7660</p>
               </div>
             </div>
             <div className="contatospessoais2">
-              <img className="contatosfotoemail" src={FotoEmail} alt="" />
+              <div>{<BiLogoGmail className="contatosfotoemail" size={35} color="#4169E1"/>}</div>
               <div className="contatosemail">
                 <p className={`contatosredestitulo ${modo}`}>E-Mail</p>
                 <p className={`contatosredesinfo ${modo}`}>rgs.ramomgomes@hotmail.com</p>
@@ -160,8 +166,8 @@ const app = () => {
         <div  className="faixa">
           <div className="faixalocal">
             <p className="mensagemfinal">Projeto desenvolvido com muita dedicação</p>
-            <a target={"_blank"} href="https://github.com/Ramom-Gomes"><img className="redesimagemfinal" src={FotoGit} alt="" /></a>
-            <a target={"_blank"} href="https://www.linkedin.com/in/ramomgomes/"><img className="redesimagemfinal" src={FotoLin} alt="" /></a>
+            <a target={"_blank"} href="https://github.com/Ramom-Gomes">{<AiFillGithub className="redesimagemfinal" size={40} color="#4169E1"/>}</a>
+            <a target={"_blank"} href="https://www.linkedin.com/in/ramomgomes/">{<AiFillLinkedin className="redesimagemfinal" size={40} color="#4169E1"/>}</a>
           </div>
         </div>
       </main>
