@@ -1,15 +1,6 @@
 import "./App.css";
-import FotoGit from "./images/github.png";
-import FotoLin from "./images/linkedin.png";
 import FotoPessoal from "./images/Foto.jpeg";
-import FotoReact from "./images/imagemreact.png";
-import FotoJs from "./images/imagemjs.png";
-import Fotohtml from "./images/imagemhtml.png";
-import Fotocss from "./images/imagemcss.png";
-import Fotosql from "./images/imagemsql.png";
 import FotoIlustra from "./images/imagemilustra.jpg";
-import FotoTelefone from "./images/telefoneazul.png";
-import FotoEmail from "./images/emailazul.png";
 import FotoEcomerce from "./images/Ecomerce.jpeg";
 import Fotoimc from "./images/imc.jpeg";
 import FotoRickandMorty from "./images/rickandmorty.jpeg";
@@ -22,7 +13,7 @@ import { useState } from "react";
 
 const app = () => {
   
-  const [modo, setModo] = useState('light');
+  const [modo, setModo] = useState('dark');
 
   const alternarModo = () => {
     setModo(modo === 'light' ? 'dark' : 'light');
