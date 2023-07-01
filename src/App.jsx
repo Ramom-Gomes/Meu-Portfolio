@@ -8,7 +8,7 @@ import { AiFillHtml5, AiOutlineConsoleSql, AiFillLinkedin, AiFillGithub, AiFillE
 import { IoLogoCss3 } from 'react-icons/io';
 import { BiLogoJavascript, BiLogoReact, BiLogoTypescript, BiLogoGmail } from 'react-icons/bi';
 import { BsTelephoneFill } from 'react-icons/bs';
-import { GrDeploy } from 'react-icons/gr';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import { useState } from "react";
 
 const app = () => {
@@ -24,7 +24,6 @@ const app = () => {
       <div className="cabecalho">
         <header>
           <h1 id="home" className={`titulo ${modo}`}>Ramom.dev</h1>
-          <button onClick={alternarModo}>Alternar Modo</button>
         </header>
         <nav className="menuprincipal">
           <ul className="menu">
@@ -32,6 +31,7 @@ const app = () => {
             <li className={`links ${modo}`}><a className={`links ${modo}`} href="#sobremim">Sobre</a></li>
             <li className={`links ${modo}`}><a className={`links ${modo}`} href="#portfolio">Projetos</a></li>
             <li className={`links ${modo}`}><a className={`links ${modo}`} href="#contatos">Contatos</a></li>
+            <li className="links" onClick={alternarModo}>{modo === 'light' ? <FaSun cursor="pointer" color="#4169E1"/> : <FaMoon cursor="pointer" color="#4169E1"/>}</li>
           </ul>
         </nav>
       </div>
