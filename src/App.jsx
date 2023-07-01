@@ -9,6 +9,7 @@ import { IoLogoCss3 } from 'react-icons/io';
 import { BiLogoJavascript, BiLogoReact, BiLogoTypescript, BiLogoGmail } from 'react-icons/bi';
 import { BsTelephoneFill } from 'react-icons/bs';
 import { FaSun, FaMoon } from 'react-icons/fa';
+import {Link} from 'react-scroll';
 import { useState } from "react";
 
 const app = () => {
@@ -27,10 +28,10 @@ const app = () => {
         </header>
         <nav className="menuprincipal">
           <ul className="menu">
-            <li className={`links ${modo}`}><a className={`links ${modo}`} href="#home">Home</a></li>
-            <li className={`links ${modo}`}><a className={`links ${modo}`} href="#sobremim">Sobre</a></li>
-            <li className={`links ${modo}`}><a className={`links ${modo}`} href="#portfolio">Projetos</a></li>
-            <li className={`links ${modo}`}><a className={`links ${modo}`} href="#contatos">Contatos</a></li>
+            <Link to="home" className={`links ${modo}`} smooth={true} duration={500}>Home</Link>
+            <Link to="sobremim" className={`links ${modo}`} smooth={true} duration={500}>Sobre</Link>
+            <Link to="portfolio" className={`links ${modo}`} smooth={true} duration={500}>Projetos</Link>
+            <Link to="contatos" className={`links ${modo}`} smooth={true} duration={700}>Contatos</Link>
             <li className="links" onClick={alternarModo}>{modo === 'light' ? <FaMoon cursor="pointer" color="#4169E1"/> : <FaSun cursor="pointer" color="#4169E1"/>}</li>
           </ul>
         </nav>
