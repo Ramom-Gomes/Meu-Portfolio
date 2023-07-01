@@ -4,6 +4,7 @@ import FotoIlustra from "./images/imagemilustra.jpg";
 import FotoEcomerce from "./images/Ecomerce.jpeg";
 import Fotoimc from "./images/imc.jpeg";
 import FotoRickandMorty from "./images/rickandmorty.jpeg";
+import FotoMarvel from './images/marvel.jpeg';
 import { AiFillHtml5, AiOutlineConsoleSql, AiFillLinkedin, AiFillGithub, AiFillEye } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
 import { BiLogoJavascript, BiLogoReact, BiLogoTypescript, BiLogoGmail } from 'react-icons/bi';
@@ -111,10 +112,10 @@ const app = () => {
                 <a className={`projetogit ${modo}`} target={"_blank"} href="https://deft-druid-7008d8.netlify.app/">Demo{<AiFillEye size={35} color="#4169E1"/>}</a>
               </div>
             </div>
-            <img className="projetoimagem2" src={Fotoimc} alt="" />
+            <img className="projetoimagem" src={Fotoimc} alt="" />
           </div>
         </section>
-        <section className="secaoport2">
+        <section className="secaoport">
           <div className="projetos">
             <img className="projetoimagem" src={FotoRickandMorty} alt="" />
             <div className="projetodescricao">
@@ -133,6 +134,27 @@ const app = () => {
                 <a className={`projetogit ${modo}`} target={"_blank"} href="https://cute-arithmetic-afc5d4.netlify.app/">Demo{<AiFillEye size={35} color="#4169E1"/>}</a>
               </div>
             </div>
+          </div>
+        </section>
+        <section className="secaoport2">
+          <div className="projetos">
+            <div className="projetodescricao2">
+              <p className={`projetotitulo ${modo}`}>Batalha Marvel ⚔️</p>
+              <p className={`projetosemititulo ${modo}`}>Baseado no filme "capitão
+                américa guerra civil", o projeto BatalhaMarvel é um jogo onde o usuário simula
+                uma batalha entre a equipe do capitão américa e a equipe do homem de ferro.
+                Nesse projeto o usuário consegue escolher no máximo três personagens de cada equipe
+                e ver a equipe vencedora. A equipe vencedora é a que tiver uma média maior.</p>
+              <div className="projetotecnologias">
+                <p className={`tecnologiausada ${modo}`}>Javascript</p>
+                <p className={`tecnologiausada ${modo}`}>React</p>
+              </div>
+              <div className="projetoredes">
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/BatalhaMarvel">Código{<AiFillGithub size={35} color="#4169E1"/>}</a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://vermillion-licorice-a9b66a.netlify.app/">Demo{<AiFillEye size={35} color="#4169E1"/>}</a>
+              </div>
+            </div>
+            <img className="projetoimagem" src={FotoMarvel} alt="" />
           </div>
         </section>
         <section className="secaocontatos">
