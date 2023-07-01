@@ -31,7 +31,7 @@ const app = () => {
             <li className={`links ${modo}`}><a className={`links ${modo}`} href="#sobremim">Sobre</a></li>
             <li className={`links ${modo}`}><a className={`links ${modo}`} href="#portfolio">Projetos</a></li>
             <li className={`links ${modo}`}><a className={`links ${modo}`} href="#contatos">Contatos</a></li>
-            <li className="links" onClick={alternarModo}>{modo === 'light' ? <FaSun cursor="pointer" color="#4169E1"/> : <FaMoon cursor="pointer" color="#4169E1"/>}</li>
+            <li className="links" onClick={alternarModo}>{modo === 'light' ? <FaMoon cursor="pointer" color="#4169E1"/> : <FaSun cursor="pointer" color="#4169E1"/>}</li>
           </ul>
         </nav>
       </div>
