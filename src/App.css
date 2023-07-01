@@ -5,20 +5,29 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html {
-    scroll-behavior: smooth;
+.main {
+    background-color: white;
 }
+
+.main.dark {
+    background-color: #222222;
+  }
 
 .cabecalho {
     display: flex;
     max-width: 1100px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .titulo {
     color: black;
     font-size: 23px;
+    margin-top: 10px;
+}
+
+.titulo.dark {
+    color: white;
 }
 
 .menuprincipal {
@@ -33,9 +42,15 @@ html {
 .links {
     color: black;
     text-decoration: none;
+    cursor: pointer;
     margin-right: 15px;
     list-style: none;
     font-size: 20px;
+    margin-top: 10px;
+}
+
+.links.dark {
+    color: white;
 }
 
 .apresentacao {
@@ -61,11 +76,19 @@ html {
     margin-top: 20px;
 }
 
+.informacoestitulo.dark {
+    color: white;
+}
+
 .informacoesdescricao {
     font-size: 18px;
     margin-top: 20px;
     line-height: 23px;
     color: #808080;
+}
+
+.informacoesdescricao.dark {
+    color: #CCCCCC;
 }
 
 .redesimage {
@@ -113,7 +136,7 @@ html {
 
 .titulotecnologias {
     margin-right: 40px;
-    font-size: 25px;
+    font-size: 28px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,14 +161,20 @@ html {
 }
 
 .sobretitulo, .portfoliotitulo, .contatotitulo {
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 10px;
     color: blue;
 }
 
 .sobresemititulo, .portfoliodescricao, .contatosemititulo {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
+}
+
+.sobresemititulo.dark, .portfoliodescricao.dark, .projetotitulo.dark,
+.tecnologiausada.dark, .projetogit.dark, .titulotecnologias.dark,
+.contatosemititulo.dark, .contatosredestitulo.dark, .contatosredesinfo.dark {
+    color: white;
 }
 
 .portfoliodescricao, .contatosemititulo {
@@ -156,6 +185,10 @@ html {
     font-size: 17px;
     color: #808080;
     line-height: 20px;
+}
+
+.sobredescricao.dark, .projetosemititulo.dark {
+    color: #CCCCCC;
 }
 
 .secaoport {
@@ -315,7 +348,11 @@ html {
     .cabecalho {
         flex-direction: column;
         max-width: 800px;
-        margin-top: 10px;
+        margin-top: 0px;
+    }
+
+    .links {
+        margin-top: 0px;
     }
 
     header {
