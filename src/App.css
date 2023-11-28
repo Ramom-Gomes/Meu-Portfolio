@@ -134,6 +134,18 @@
     display: flex;
 }
 
+.tecnologiasPosition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tecnologiasDescricao {
+    font-size: 12px;
+    margin-right: 40px;
+}
+
 .titulotecnologias {
     margin-right: 40px;
     font-size: 28px;
@@ -433,7 +445,7 @@
         font-size: 25px;
     }
 
-    .imagemtecnologias {
+    .imagemtecnologias, .tecnologiasDescricao {
         margin-right: 0px;
     }    
 

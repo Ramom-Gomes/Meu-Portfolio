@@ -11,7 +11,7 @@ import { BiLogoJavascript, BiLogoReact, BiLogoTypescript, BiLogoGmail } from 're
 import { BsTelephoneFill } from 'react-icons/bs';
 import { FaSun, FaMoon } from 'react-icons/fa';
 import {Link} from 'react-scroll';
-import { useState } from "react";
+import { useState } from "react"; 
 
 const app = () => {
   
@@ -53,13 +53,31 @@ const app = () => {
             </div>
           </div>
           <div className="tecnologias">
-            <div id="sobremim" className={`titulotecnologias ${modo}`}>tecnologias |</div>
-            <div className="imagemtecnologias">{<AiFillHtml5 size={40} color="#4169E1"/>}</div>
-            <div className="imagemtecnologias">{<IoLogoCss3 size={40} color="#4169E1"/>}</div>
-            <div className="imagemtecnologias">{<BiLogoJavascript size={40} color="#4169E1"/>}</div>
-            <div className="imagemtecnologias">{<BiLogoReact size={40} color="#4169E1"/>}</div>
-            <div className="imagemtecnologias">{<BiLogoTypescript size={40} color="#4169E1"/>}</div>
-            <div className="imagemtecnologias">{<AiOutlineConsoleSql size={40} color="#4169E1"/>}</div>
+            <div id="sobremim" className={`titulotecnologias ${modo}`}>Tecnologias</div>
+            <div className="tecnologiasPosition">
+              <div className="imagemtecnologias">{<AiFillHtml5 size={40} color="#4169E1"/>}</div>
+              <p className="tecnologiasDescricao">HTML</p>
+            </div>
+            <div className="tecnologiasPosition">
+              <div className="imagemtecnologias">{<IoLogoCss3 size={40} color="#4169E1"/>}</div>
+              <p className="tecnologiasDescricao">CSS</p>
+            </div>
+            <div className="tecnologiasPosition">
+              <div className="imagemtecnologias">{<BiLogoJavascript size={40} color="#4169E1"/>}</div>
+              <p className="tecnologiasDescricao">JAVASCRIPT</p>
+            </div>
+            <div className="tecnologiasPosition">
+              <div className="imagemtecnologias">{<BiLogoReact size={40} color="#4169E1"/>}</div>
+              <p className="tecnologiasDescricao">REACT</p>
+            </div>
+            <div className="tecnologiasPosition">
+              <div className="imagemtecnologias">{<BiLogoTypescript size={40} color="#4169E1"/>}</div>
+              <p className="tecnologiasDescricao">TYPESCRIPT</p>
+            </div>
+            <div className="tecnologiasPosition">
+              <div className="imagemtecnologias">{<AiOutlineConsoleSql size={40} color="#4169E1"/>}</div>
+              <p className="tecnologiasDescricao">SQL</p>
+            </div>
           </div>
         </section>
         <section className="sobremim">
