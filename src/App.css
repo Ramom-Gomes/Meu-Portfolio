@@ -134,6 +134,17 @@
     display: flex;
 }
 
+.tecnologiasPosition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tecnologiasDescricao {
+    font-size: 14px;
+    margin-right: 40px;
+}
+
 .titulotecnologias {
     margin-right: 40px;
     font-size: 28px;
@@ -173,7 +184,8 @@
 
 .sobresemititulo.dark, .portfoliodescricao.dark, .projetotitulo.dark,
 .tecnologiausada.dark, .projetogit.dark, .titulotecnologias.dark,
-.contatosemititulo.dark, .contatosredestitulo.dark, .contatosredesinfo.dark {
+.contatosemititulo.dark, .contatosredestitulo.dark, .contatosredesinfo.dark,
+.tecnologiasDescricao.dark {
     color: white;
 }
 
@@ -433,7 +445,7 @@
         font-size: 25px;
     }
 
-    .imagemtecnologias {
+    .imagemtecnologias, .tecnologiasDescricao {
         margin-right: 0px;
     }    
 
