@@ -56,27 +56,27 @@ const app = () => {
             <div id="sobremim" className={`titulotecnologias ${modo}`}>Tecnologias</div>
             <div className="tecnologiasPosition">
               <div className="imagemtecnologias">{<AiFillHtml5 size={40} color="#4169E1"/>}</div>
-              <p className="tecnologiasDescricao">HTML</p>
+              <p className={`tecnologiasDescricao ${modo}`}>HTML</p>
             </div>
             <div className="tecnologiasPosition">
               <div className="imagemtecnologias">{<IoLogoCss3 size={40} color="#4169E1"/>}</div>
-              <p className="tecnologiasDescricao">CSS</p>
+              <p className={`tecnologiasDescricao ${modo}`}>CSS</p>
             </div>
             <div className="tecnologiasPosition">
               <div className="imagemtecnologias">{<BiLogoJavascript size={40} color="#4169E1"/>}</div>
-              <p className="tecnologiasDescricao">JAVASCRIPT</p>
+              <p className={`tecnologiasDescricao ${modo}`}>JAVASCRIPT</p>
             </div>
             <div className="tecnologiasPosition">
               <div className="imagemtecnologias">{<BiLogoReact size={40} color="#4169E1"/>}</div>
-              <p className="tecnologiasDescricao">REACT</p>
+              <p className={`tecnologiasDescricao ${modo}`}>REACT</p>
             </div>
             <div className="tecnologiasPosition">
               <div className="imagemtecnologias">{<BiLogoTypescript size={40} color="#4169E1"/>}</div>
-              <p className="tecnologiasDescricao">TYPESCRIPT</p>
+              <p className={`tecnologiasDescricao ${modo}`}>TYPESCRIPT</p>
             </div>
             <div className="tecnologiasPosition">
               <div className="imagemtecnologias">{<AiOutlineConsoleSql size={40} color="#4169E1"/>}</div>
-              <p className="tecnologiasDescricao">SQL</p>
+              <p className={`tecnologiasDescricao ${modo}`}>SQL</p>
             </div>
           </div>
         </section>

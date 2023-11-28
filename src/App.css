@@ -138,11 +138,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .tecnologiasDescricao {
-    font-size: 12px;
+    font-size: 14px;
     margin-right: 40px;
 }
 
@@ -185,7 +184,8 @@
 
 .sobresemititulo.dark, .portfoliodescricao.dark, .projetotitulo.dark,
 .tecnologiausada.dark, .projetogit.dark, .titulotecnologias.dark,
-.contatosemititulo.dark, .contatosredestitulo.dark, .contatosredesinfo.dark {
+.contatosemititulo.dark, .contatosredestitulo.dark, .contatosredesinfo.dark,
+.tecnologiasDescricao.dark {
     color: white;
 }
 
