@@ -5,6 +5,7 @@ import FotoEcomerce from "./images/Ecomerce.jpeg";
 import Fotoimc from "./images/imc.jpeg";
 import FotoRickandMorty from "./images/rickandmorty.jpeg";
 import FotoMarvel from './images/marvel.jpeg';
+import FotoFitness from './images/fitness.jpeg';
 import { AiFillHtml5, AiOutlineConsoleSql, AiFillLinkedin, AiFillGithub, AiFillEye } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
 import { BiLogoJavascript, BiLogoReact, BiLogoTypescript, BiLogoGmail } from 'react-icons/bi';
@@ -154,7 +155,7 @@ const app = () => {
             </div>
           </div>
         </section>
-        <section className="secaoport2">
+        <section className="secaoport">
           <div className="projetos">
             <div className="projetodescricao2">
               <p className={`projetotitulo ${modo}`}>Batalha Marvel ⚔️</p>
@@ -173,6 +174,27 @@ const app = () => {
               </div>
             </div>
             <img className="projetoimagem" src={FotoMarvel} alt="" />
+          </div>
+        </section>
+        <section className="secaoport2">
+          <div className="projetos">
+            <img className="projetoimagem" src={FotoFitness} alt="" />
+            <div className="projetodescricao">
+              <p className={`projetotitulo ${modo}`}>RegistraFitness 💪🏿</p>
+              <p className={`projetosemititulo ${modo}`}>Quem nunca ouviu falar desse desenho não é mesmo?
+                Esse site mostra os personagens do desenho, e você consegue trocar de página
+                para ver todos os personagens. Cada persogem mostra o seu nome, se está vivo
+                ou morto, a sua espécie, a primeira e última aparição no desenho.
+              </p>
+              <div className="projetotecnologias">
+                <p className={`tecnologiausada ${modo}`}>Javascript</p>
+                <p className={`tecnologiausada ${modo}`}>React</p>
+              </div>
+              <div className="projetoredes">
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://github.com/Ramom-Gomes/Fitness">Código{<AiFillGithub size={35} color="#4169E1"/>}</a>
+                <a className={`projetogit ${modo}`} target={"_blank"} href="https://quiet-maamoul-6c9a00.netlify.app/">Demo{<AiFillEye size={35} color="#4169E1"/>}</a>
+              </div>
+            </div>
           </div>
         </section>
         <section className="secaocontatos">
