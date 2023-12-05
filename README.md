@@ -3,7 +3,7 @@
 ### Meu Portfólio foi desenvolvido para você conhecer um pouco mais sobre mim, conhecer um pouco mais sobre mim e a minha história, conhecer mais sobre os meus principais projetos e saber os melhores meios de contatos para falar comigo. O principal objetivo com este projeto foi montar um lugar onde as pessoas irão conseguir me conhecer mais.
 
 ### Link para visualização total do projeto: [Clique aqui](https://monumental-alfajores-8ca782.netlify.app/).
-
+---
 ## 📷 Imagens
 
 <div align="center" display="flex">
@@ -11,10 +11,11 @@
 <img src="https://github.com/Ramom-Gomes/Meu-Portfolio/assets/110055468/917bafec-6337-431d-8e27-59fa70d54e37" width="400px" />
 </div>
 
+---
 
 ## Status
 ### Projeto Finalizado ✔️
-
+---
 
 ## ⚒️ Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -23,7 +24,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
 
-
+---
 
 ## 💻 Pré Requisitos
 
@@ -32,7 +33,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * NPM instalados em sua máquina.
 * Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-
+---
 
 ## 🚀 Instalando
 
