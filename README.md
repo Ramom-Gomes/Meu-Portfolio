@@ -16,7 +16,7 @@
 ### Projeto Finalizado ✔️
 
 
-## Tecnologias
+## ⚒️ Tecnologias
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React Icons](https://react-icons.github.io/react-icons/)
